@@ -1,3 +1,73 @@
-html{
-background:green;
+body {
+  background-image: url('Images/CinemanHallBG.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 1px;
 }
+h1 {
+  text-align: center;   /* centers text horizontally */
+  margin-top: 0;        /* removes extra top gap */
+  padding-top: 10px;    /* small space from top */
+}
+body {
+  margin-top: 0px;
+}
+
+/* Header banner */
+.header {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 50px; /* space between logo & text */
+  
+  background-color: #000000; /* dark color matching your logo */
+  padding: 5px;
+}
+
+/* Logo inside header */
+.header img {
+  align-items: left;
+  height: 100px; /* control logo size */
+}
+
+/* Text styling */
+.header h1 {
+  color: gold;
+  margin: 0;
+  font-size: 55px;
+}
+.header_2 h2 {
+	text-align: center;   /* centers text horizontally */
+	margin-top: 0;        /* removes extra top gap */
+    padding-top: 2px; 
+	color: #674846;
+	margin: 0;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+.genre-row {
+  display: flex;
+  justify-content: space-around; /* spacing between images */
+  align-items: center;
+  margin-top: 0px;
+}
+.genre-row {
+  text-align: center;
+  margin-top: 0; 
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.genre-row img {
+  width: 400px;
+  height: auto;
+}
+.genre-row img {
+  transition: transform 0.3s ease;
+}
+
+.genre-row img:hover {
+  transform: scale(1.1);
+}
+
+	
